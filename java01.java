@@ -4,32 +4,27 @@ public class java01 {
 	
 	public static void main(String[] args) {
 		
-		/*
 		 
-		    +	Addition	    Adds together two values	            x + y	
-            -	Subtraction     Subtracts one value from another	    x - y	
-            *	Multiplication	Multiplies two values	                x * y	
-            /	Division	    Divides one value by another	        x / y	
-            %	Modulus	        Returns the division remainder	        x % y	
-            ++	Increment 	    Increases the value of a variable by 1	 ++x	
-            --	Decrement	    Decreases the value of a variable by 1	 --x
-            
-		 */
-		
-		/*
-		 
-		   ==	Equal to	x == y	
-           !=	Not equal	x != y	
-           >	Greater than	x > y	
-           <	Less than	x < y	
-           >=	Greater than or equal to	x >= y	
-           <=	Less than or equal to	x <= y
-           
-		 */
-		
-		/*
+	    +	Addition	    	Adds together two values	            	x + y	
+            -	Subtraction     	Subtracts one value from another	    	x - y	
+            *	Multiplication		Multiplies two values	                	x * y	
+            /	Division	    	Divides one value by another	        	x / y	
+            %	Modulus	        	Returns the division remainder	        	x % y	
+            ++	Increment 	    	Increases the value of a variable by 1	 	++x	
+            --	Decrement	    	Decreases the value of a variable by 1	 	--x
+
+----------------------------------------------------------------------------------------------		    
+			    
+	   ==	Equal to	    	  x == y	
+           !=	Not equal		  x != y	
+           >	Greater than		  x > y	
+           <	Less than		  x < y	
+           >=	Greater than or equal to  x >= y	
+           <=	Less than or equal to	  x <= y
+		    
+----------------------------------------------------------------------------------------------		    
 		  
-		   =	x = 5	 x = 5	
+	    =	x = 5	 x = 5	
            +=	x += 3	 x = x + 3	
            -=	x -= 3	 x = x - 3	
            *=	x *= 3	 x = x * 3	
@@ -40,38 +35,36 @@ public class java01 {
            ^=	x ^= 3	 x = x ^ 3	
            >>=	x >>= 3	 x = x >> 3	
            <<=	x <<= 3	 x = x << 3
-           
-		 */
-		
-		/*
+
+----------------------------------------------------------------------------------------------		    		    
 		 
 	  	\n	New Line	      String txt = "Hello\nWorld!";           Hello
-                                                                      World!
-		\r	Carriage Return   String txt = "Hello\rWorld!";           Hello
-		                                                              World!	
-		\t	Tab	              String txt = "Hello\tWorld!";           Hello    World!
+                                                                                      World!
+		\r	Carriage Return   String txt = "Hello\rWorld!";               Hello
+		                                                                      World!	
+		\t	Tab	              String txt = "Hello\tWorld!";           Hello World!
 		\b	Backspace	      String txt = "Hel\blo World!";          Helo World!
 		\f	Form Feed
-		
-	    */	
+
+----------------------------------------------------------------------------------------------		   		
 	
-	System.out.println("<--- Length --->\n");
+- - - - System.out.println("<--- Length --->\n");
 	
 		String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 		System.out.println("The length of the txt string is: " + txt.length());
 		
-	System.out.println("\n<--- Upper/Lower case --->\n");
+- - - - System.out.println("\n<--- Upper/Lower case --->\n");
 	
 		String txtt = "Hello World";
 		System.out.println(txtt.toUpperCase());   // Outputs "HELLO WORLD"
 		System.out.println(txtt.toLowerCase());   // Outputs "hello world"
 		
-	System.out.println("\n<--- İndexOF --->\n");
+- - - - System.out.println("\n<--- İndexOF --->\n");
 	
 		String txt1 = "Please locate where 'locate' occurs!";
 		System.out.println(txt1.indexOf("locate"));
 		
-		System.out.println("\n<--- Math --->\n");
+- - - - System.out.println("\n<--- Math --->\n");
 		
 		System.out.println(Math.max(5, 10)); 
 		System.out.println(Math.min(5, 10));
@@ -82,7 +75,7 @@ public class java01 {
 		int randomNum = (int)(Math.random() * 101);  // 0 to 100
 		System.out.println(randomNum);
 		
-	System.out.println("\n<--- Boolean --->\n");
+- - - - System.out.println("\n<--- Boolean --->\n");
 	
 		boolean isJavaFun = true;
 		boolean isFishTasty = false;
@@ -98,7 +91,7 @@ public class java01 {
 		System.out.println(z == 10); // returns true, because the value of x is equal to 10
 		System.out.println(10 == 15); // returns false, because 10 is not equal to 15
 		
-	System.out.println("\n<--- if/if else/else if --->\n");
+- - - - System.out.println("\n<--- if/if else/else if --->\n");
 	
 		int myAge = 25;
 		int votingAge = 18;
@@ -119,7 +112,7 @@ public class java01 {
 		}
 		// Outputs "Good evening."
 		
-	System.out.println("\n<--- Switch case-break --->\n");
+- - - - System.out.println("\n<--- Switch case-break --->\n");
 	
 		int day = 4;
 		switch (day) {
@@ -147,7 +140,7 @@ public class java01 {
 		}
 		// Outputs "Thursday" (day 4)
 		
-	System.out.println("\n<--- default --->\n");
+- - - - System.out.println("\n<--- default --->\n");
 		int dayOf = 4;
 		switch (dayOf) {
 		  case 6:
@@ -173,13 +166,13 @@ public class java01 {
 		*/
 		
 		
-	System.out.println("\n<--- For --->\n");
+- - - - System.out.println("\n<--- For --->\n");
 		for (int j = 0; j < 5; j++) 
 		{
 		  System.out.println(j);
 		}
 		
-	System.out.println("\n<--- For-each --->\n");
+- - - - System.out.println("\n<--- For-each --->\n");
 		
 		String[] arabalar = {"Volvo", "BMW", "Ford", "Audi"};
 		for (String  g : arabalar) {
