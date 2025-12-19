@@ -5,7 +5,7 @@ public class java01 {
 	public static void main(String[] args) {
 		
 		 
-	    +	Addition	    	Adds together two values	            	x + y	
+	        +	Addition	    	Adds together two values	            	x + y	
             -	Subtraction     	Subtracts one value from another	    	x - y	
             *	Multiplication		Multiplies two values	                	x * y	
             /	Division	    	Divides one value by another	        	x / y	
@@ -15,16 +15,16 @@ public class java01 {
 
 ----------------------------------------------------------------------------------------------		    
 			    
-	   ==	Equal to	    	  x == y	
-           !=	Not equal		  x != y	
-           >	Greater than		  x > y	
-           <	Less than		  x < y	
+	       ==	Equal to	    	      x == y	
+           !=	Not equal		          x != y	
+           >	Greater than		      x > y	
+           <	Less than		          x < y	
            >=	Greater than or equal to  x >= y	
            <=	Less than or equal to	  x <= y
 		    
 ----------------------------------------------------------------------------------------------		    
 		  
-	    =	x = 5	 x = 5	
+	       =	x = 5	 x = 5	
            +=	x += 3	 x = x + 3	
            -=	x -= 3	 x = x - 3	
            *=	x *= 3	 x = x * 3	
@@ -154,7 +154,7 @@ public class java01 {
 		}
 		// Outputs "Looking forward to the Weekend"
 		
-	/* 
+	 
 	  System.out.println("\n<--- While loop --->\n");
 	 
 		int i = 0;
@@ -163,9 +163,8 @@ public class java01 {
 			i++;
 		  System.out.println(i);
 		}
-		*/
-		
-		
+
+
 - - - - System.out.println("\n<--- For --->\n");
 		for (int j = 0; j < 5; j++) 
 		{
@@ -178,9 +177,5 @@ public class java01 {
 		for (String  g : arabalar) {
 			System.out.println(g);
 		}
-		
-		
-
 	}
-
 }
