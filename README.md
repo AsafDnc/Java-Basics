@@ -1,4 +1,4 @@
-# Java Basics - Reference Guide / Java Temelleri - Referans Kılavuzu 
+# Java Basics / Java Temelleri
 
 This repository serves as a comprehensive "Cheat Sheet" for Java fundamentals. It covers everything from basic operators to control flow structures.<br>
 Bu depo, Java temelleri için kapsamlı bir "özet kılavuz" niteliğindedir. Temel operatörlerden kontrol akış yapılarına kadar her şeyi kapsar.
