@@ -39,9 +39,9 @@ public class java01 {
 ----------------------------------------------------------------------------------------------		    		    
 		 
 	  	\n	New Line	      String txt = "Hello\nWorld!";           Hello
-                                                                                      World!
-		\r	Carriage Return   String txt = "Hello\rWorld!";               Hello
-		                                                                      World!	
+                                                                      World!
+		\r	Carriage Return   String txt = "Hello\rWorld!";           Hello
+		                                                              World!	
 		\t	Tab	              String txt = "Hello\tWorld!";           Hello World!
 		\b	Backspace	      String txt = "Hel\blo World!";          Helo World!
 		\f	Form Feed
